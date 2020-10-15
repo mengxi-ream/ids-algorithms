@@ -33,3 +33,8 @@ For people who want to contribute to this open source project:
 3. https://github.com/juwikuang/machine_learning_step_by_step/blob/master/.gitignore
 4. I may use other resources later, and if you want to be a contributor, you can use any legal resources as well.
 
+To clone this project in your computer, use the download button or write code in your terminal:
+```
+git clone https://github.com/Crayon-ShinChan/ids-algorithms
+```
+
