@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<edu_associate?<br/>entropy = 0.996<br/>samples = 3888<br/>value = [1802, 2086]<br/>class = low>, fillcolor="#e4f2fb"] ;
+1 [label=<career_algorithm?<br/>entropy = 0.99<br/>samples = 2747<br/>value = [1535, 1212]<br/>class = high>, fillcolor="#fae4d5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="no"] ;
+2 [label=<pl_go?<br/>entropy = 0.999<br/>samples = 2383<br/>value = [1224, 1159]<br/>class = high>, fillcolor="#fef8f4"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.999<br/>samples = 2059<br/>value = [998, 1061]<br/>class = low>, fillcolor="#f3f9fd"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.884<br/>samples = 324<br/>value = [226, 98]<br/>class = high>, fillcolor="#f0b88f"] ;
+2 -> 4 ;
+5 [label=<pl_c_sharp?<br/>entropy = 0.599<br/>samples = 364<br/>value = [311, 53]<br/>class = high>, fillcolor="#e9965b"] ;
+1 -> 5 ;
+6 [label=<entropy = 0.536<br/>samples = 343<br/>value = [301, 42]<br/>class = high>, fillcolor="#e99355"] ;
+5 -> 6 ;
+7 [label=<entropy = 0.998<br/>samples = 21<br/>value = [10, 11]<br/>class = low>, fillcolor="#edf6fd"] ;
+5 -> 7 ;
+8 [label=<db_Redis?<br/>entropy = 0.785<br/>samples = 1141<br/>value = [267, 874]<br/>class = low>, fillcolor="#75bbed"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="yes"] ;
+9 [label=<pl_cpp?<br/>entropy = 0.731<br/>samples = 996<br/>value = [204, 792]<br/>class = low>, fillcolor="#6cb6ec"] ;
+8 -> 9 ;
+10 [label=<entropy = 0.668<br/>samples = 877<br/>value = [153, 724]<br/>class = low>, fillcolor="#63b2ea"] ;
+9 -> 10 ;
+11 [label=<entropy = 0.985<br/>samples = 119<br/>value = [51, 68]<br/>class = low>, fillcolor="#cee6f8"] ;
+9 -> 11 ;
+12 [label=<pl_lua?<br/>entropy = 0.988<br/>samples = 145<br/>value = [63, 82]<br/>class = low>, fillcolor="#d1e8f9"] ;
+8 -> 12 ;
+13 [label=<entropy = 0.981<br/>samples = 141<br/>value = [59, 82]<br/>class = low>, fillcolor="#c7e4f8"] ;
+12 -> 13 ;
+14 [label=<entropy = 0.0<br/>samples = 4<br/>value = [4, 0]<br/>class = high>, fillcolor="#e58139"] ;
+12 -> 14 ;
+}
